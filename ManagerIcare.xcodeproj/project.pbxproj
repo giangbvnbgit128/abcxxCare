@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530659A61FFD6E7A00FF06A9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530659A71FFD6E7A00FF06A9 /* FBSDKLoginKit.framework */; };
+		530659AC1FFDD68C00FF06A9 /* MMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659AA1FFDD68C00FF06A9 /* MMLoginViewController.swift */; };
+		530659AD1FFDD68C00FF06A9 /* MMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530659AB1FFDD68C00FF06A9 /* MMLoginViewController.xib */; };
+		530659B21FFE13E100FF06A9 /* MMChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659B01FFE13E100FF06A9 /* MMChartViewController.swift */; };
+		530659B31FFE13E100FF06A9 /* MMChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530659B11FFE13E100FF06A9 /* MMChartViewController.xib */; };
+		530659B51FFE7E2D00FF06A9 /* LelfMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659B41FFE7E2D00FF06A9 /* LelfMenuModel.swift */; };
+		530659B71FFE9D6800FF06A9 /* MMHeightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659B61FFE9D6800FF06A9 /* MMHeightModel.swift */; };
+		530659B91FFE9DD700FF06A9 /* BaseModelHealthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659B81FFE9DD700FF06A9 /* BaseModelHealthy.swift */; };
 		53288EAA1FEF4D9F0073D276 /* MMAddHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53288EA81FEF4D9F0073D276 /* MMAddHealthViewController.swift */; };
 		53288EAB1FEF4D9F0073D276 /* MMAddHealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53288EA91FEF4D9F0073D276 /* MMAddHealthViewController.xib */; };
 		53288EAF1FEF57B70073D276 /* headerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53288EAD1FEF57B70073D276 /* headerCellTableViewCell.swift */; };
@@ -15,7 +23,6 @@
 		53288EB51FEFA13B0073D276 /* MMDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53288EB31FEFA13B0073D276 /* MMDetailViewController.xib */; };
 		53288EB71FF0ABB90073D276 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53288EB61FF0ABB90073D276 /* GoogleService-Info.plist */; };
 		53288EB91FF0AF1F0073D276 /* MMHealthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53288EB81FF0AF1F0073D276 /* MMHealthModel.swift */; };
-		53288EBA1FF0B0320073D276 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53288EBB1FF0B0320073D276 /* ObjectMapper.framework */; };
 		53288EBD1FF3EE100073D276 /* MMHealthGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53288EBC1FF3EE0F0073D276 /* MMHealthGroup.swift */; };
 		533FDEA61FF3F84B00DF22A3 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533FDEA71FF3F84B00DF22A3 /* SDWebImage.framework */; };
 		533FDEAA1FF4A48200DF22A3 /* ImageUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533FDEA91FF4A48200DF22A3 /* ImageUploadManager.swift */; };
@@ -109,6 +116,15 @@
 /* Begin PBXFileReference section */
 		0DABF76F461992260EDFB825 /* Pods-ManagerIcare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerIcare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManagerIcare/Pods-ManagerIcare.debug.xcconfig"; sourceTree = "<group>"; };
 		4D4F74C1481E33A8CB3DE8DF /* Pods-ManagerIcare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerIcare.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManagerIcare/Pods-ManagerIcare.release.xcconfig"; sourceTree = "<group>"; };
+		530659A71FFD6E7A00FF06A9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		530659A81FFDD60700FF06A9 /* ManagerIcare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ManagerIcare.entitlements; sourceTree = "<group>"; };
+		530659AA1FFDD68C00FF06A9 /* MMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMLoginViewController.swift; sourceTree = "<group>"; };
+		530659AB1FFDD68C00FF06A9 /* MMLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMLoginViewController.xib; sourceTree = "<group>"; };
+		530659B01FFE13E100FF06A9 /* MMChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMChartViewController.swift; sourceTree = "<group>"; };
+		530659B11FFE13E100FF06A9 /* MMChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMChartViewController.xib; sourceTree = "<group>"; };
+		530659B41FFE7E2D00FF06A9 /* LelfMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LelfMenuModel.swift; sourceTree = "<group>"; };
+		530659B61FFE9D6800FF06A9 /* MMHeightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMHeightModel.swift; sourceTree = "<group>"; };
+		530659B81FFE9DD700FF06A9 /* BaseModelHealthy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelHealthy.swift; sourceTree = "<group>"; };
 		53288EA81FEF4D9F0073D276 /* MMAddHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMAddHealthViewController.swift; sourceTree = "<group>"; };
 		53288EA91FEF4D9F0073D276 /* MMAddHealthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMAddHealthViewController.xib; sourceTree = "<group>"; };
 		53288EAD1FEF57B70073D276 /* headerCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerCellTableViewCell.swift; sourceTree = "<group>"; };
@@ -133,6 +149,7 @@
 		53A8C5DF1FFB2C120008EF5D /* MMLeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMLeftMenuViewController.swift; sourceTree = "<group>"; };
 		53A8C5E01FFB2C120008EF5D /* MMLeftMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMLeftMenuViewController.xib; sourceTree = "<group>"; };
 		53A8C5E31FFB30E30008EF5D /* MMSplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMSplashScreen.swift; sourceTree = "<group>"; };
+		53BB8F931FFEA53200252067 /* DateTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DateTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CF68371FFB670A0031B7EC /* MMProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMProfileViewController.swift; sourceTree = "<group>"; };
 		53CF68381FFB670A0031B7EC /* MMProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMProfileViewController.xib; sourceTree = "<group>"; };
 		53CF683C1FFB68D50031B7EC /* MMProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMProfileTableViewCell.swift; sourceTree = "<group>"; };
@@ -204,8 +221,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530659A61FFD6E7A00FF06A9 /* FBSDKLoginKit.framework in Frameworks */,
 				533FDEA61FF3F84B00DF22A3 /* SDWebImage.framework in Frameworks */,
-				53288EBA1FF0B0320073D276 /* ObjectMapper.framework in Frameworks */,
 				723EE8F21B210B2C1B744B34 /* Pods_ManagerIcare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,6 +251,24 @@
 				4D4F74C1481E33A8CB3DE8DF /* Pods-ManagerIcare.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		530659A91FFDD64900FF06A9 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				530659AA1FFDD68C00FF06A9 /* MMLoginViewController.swift */,
+				530659AB1FFDD68C00FF06A9 /* MMLoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		530659AF1FFE13D100FF06A9 /* ChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				530659B01FFE13E100FF06A9 /* MMChartViewController.swift */,
+				530659B11FFE13E100FF06A9 /* MMChartViewController.xib */,
+			);
+			path = ChartViewController;
 			sourceTree = "<group>";
 		};
 		53288EA71FEF4D800073D276 /* AddHealthViewController */ = {
@@ -365,6 +400,7 @@
 		53E8870B1FECA88A00262609 /* ManagerIcare */ = {
 			isa = PBXGroup;
 			children = (
+				530659A81FFDD60700FF06A9 /* ManagerIcare.entitlements */,
 				53288EB61FF0ABB90073D276 /* GoogleService-Info.plist */,
 				53E8875E1FEE048200262609 /* DataHelper */,
 				53E887481FEDF1E800262609 /* Base */,
@@ -413,6 +449,8 @@
 				53288EB81FF0AF1F0073D276 /* MMHealthModel.swift */,
 				53288EBC1FF3EE0F0073D276 /* MMHealthGroup.swift */,
 				539792C91FF9471B006857BE /* MMVaccitionModelal.swift */,
+				530659B41FFE7E2D00FF06A9 /* LelfMenuModel.swift */,
+				530659B61FFE9D6800FF06A9 /* MMHeightModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -420,6 +458,8 @@
 		53E8873D1FEDEA2F00262609 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				530659AF1FFE13D100FF06A9 /* ChartViewController */,
+				530659A91FFDD64900FF06A9 /* LoginViewController */,
 				539792CB1FF9567E006857BE /* LeftViewController */,
 				533FDEE31FF889C500DF22A3 /* NationalVaccinationViewController */,
 				53288EB11FEFA0EB0073D276 /* DetailViewController */,
@@ -447,6 +487,7 @@
 			children = (
 				53E8874B1FEDF2F100262609 /* BaseCell */,
 				53E887491FEDF1FC00262609 /* MMBaseViewController.swift */,
+				530659B81FFE9DD700FF06A9 /* BaseModelHealthy.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -539,6 +580,8 @@
 		D59732157DDE932EEBFD06D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53BB8F931FFEA53200252067 /* DateTimePicker.framework */,
+				530659A71FFD6E7A00FF06A9 /* FBSDKLoginKit.framework */,
 				533FDEA71FF3F84B00DF22A3 /* SDWebImage.framework */,
 				53288EBB1FF0B0320073D276 /* ObjectMapper.framework */,
 				65749E5353428F283EDB3533 /* Pods_ManagerIcare.framework */,
@@ -620,6 +663,11 @@
 					53E887081FECA88A00262609 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					53E8871C1FECA88B00262609 = {
 						CreatedOnToolsVersion = 9.1;
@@ -659,6 +707,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E8874F1FEDF32D00262609 /* MMBaseTableViewCell.xib in Resources */,
+				530659AD1FFDD68C00FF06A9 /* MMLoginViewController.xib in Resources */,
 				53E887171FECA88A00262609 /* LaunchScreen.storyboard in Resources */,
 				536C215A1FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib in Resources */,
 				539792D61FF956C2006857BE /* MMFollowHealthViewController.xib in Resources */,
@@ -674,6 +723,7 @@
 				53288EAB1FEF4D9F0073D276 /* MMAddHealthViewController.xib in Resources */,
 				53288EB01FEF57B70073D276 /* headerCellTableViewCell.xib in Resources */,
 				53288EB71FF0ABB90073D276 /* GoogleService-Info.plist in Resources */,
+				530659B31FFE13E100FF06A9 /* MMChartViewController.xib in Resources */,
 				53E887121FECA88A00262609 /* Main.storyboard in Resources */,
 				53288EB51FEFA13B0073D276 /* MMDetailViewController.xib in Resources */,
 			);
@@ -705,11 +755,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ManagerIcare/Pods-ManagerIcare-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AKSideMenu/AKSideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -718,11 +770,13 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKSideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -775,6 +829,8 @@
 				53E887891FEE048200262609 /* UIDevice.swift in Sources */,
 				53E887981FEE048200262609 /* UINavigationController.swift in Sources */,
 				53E887411FEDF11F00262609 /* MMHeathyViewController.swift in Sources */,
+				530659B51FFE7E2D00FF06A9 /* LelfMenuModel.swift in Sources */,
+				530659B21FFE13E100FF06A9 /* MMChartViewController.swift in Sources */,
 				533FDEE61FF889F500DF22A3 /* NationalVaccinationViewController.swift in Sources */,
 				53E8873F1FEDEA2F00262609 /* AppDelegate.swift in Sources */,
 				53E887801FEE048200262609 /* GCD.swift in Sources */,
@@ -796,8 +852,10 @@
 				539792D51FF956C2006857BE /* MMFollowHealthViewController.swift in Sources */,
 				53E8877E1FEE048200262609 /* NSUserDefaults.swift in Sources */,
 				53E887911FEE048200262609 /* UIWindow.swift in Sources */,
+				530659B91FFE9DD700FF06A9 /* BaseModelHealthy.swift in Sources */,
 				53E8874E1FEDF32D00262609 /* MMBaseTableViewCell.swift in Sources */,
 				539792CA1FF9471B006857BE /* MMVaccitionModelal.swift in Sources */,
+				530659AC1FFDD68C00FF06A9 /* MMLoginViewController.swift in Sources */,
 				533FDEAA1FF4A48200DF22A3 /* ImageUploadManager.swift in Sources */,
 				53E8877D1FEE048200262609 /* NSString.swift in Sources */,
 				53288EB91FF0AF1F0073D276 /* MMHealthModel.swift in Sources */,
@@ -817,6 +875,7 @@
 				53E887971FEE048200262609 /* Optional.swift in Sources */,
 				53E887471FEDF16800262609 /* MMNewsViewContronller.swift in Sources */,
 				53E887431FEDF14700262609 /* MMNutritionViewController.swift in Sources */,
+				530659B71FFE9D6800FF06A9 /* MMHeightModel.swift in Sources */,
 				53E887871FEE048200262609 /* Int.swift in Sources */,
 				53E887921FEE048200262609 /* CGFloat.swift in Sources */,
 				53E887841FEE048200262609 /* NSObject.swift in Sources */,
@@ -995,6 +1054,7 @@
 			baseConfigurationReference = 0DABF76F461992260EDFB825 /* Pods-ManagerIcare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ManagerIcare/ManagerIcare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMGAK3H63N;
 				INFOPLIST_FILE = ManagerIcare/Info.plist;
@@ -1012,6 +1072,7 @@
 			baseConfigurationReference = 4D4F74C1481E33A8CB3DE8DF /* Pods-ManagerIcare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ManagerIcare/ManagerIcare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMGAK3H63N;
 				INFOPLIST_FILE = ManagerIcare/Info.plist;

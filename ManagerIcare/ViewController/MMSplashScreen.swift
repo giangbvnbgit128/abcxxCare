@@ -20,6 +20,7 @@ class MMSplashScreen: MMBaseViewController {
         let viewTabbar = storyboard?.instantiateViewController(withIdentifier: "tabbarkey")
         let letftViewContrller = MMLeftMenuViewController.vc()
         
+        
         let akViewVC = AKSideMenu(contentViewController: viewTabbar!, leftMenuViewController: letftViewContrller, rightMenuViewController: nil)
         appDelegate.window?.rootViewController = akViewVC
     }

@@ -14,7 +14,7 @@ class MMLeftMenuViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var nscontraintSpacingTopRight: NSLayoutConstraint!
     
-    let arrayItem:[String] = ["Chiều Cao","Cân Năng","Tuổi","Theo Dõi Phát Triển","Đăng Xuất"]
+    let arrayItem:[String] = ["Chiều Cao","Cân Năng","Tuổi","Theo Dõi Phát Triển","Đăng Nhập"]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupSpacingRight()
@@ -75,6 +75,17 @@ extension MMLeftMenuViewController : UITableViewDataSource, UITableViewDelegate 
             return cell
         }
         
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            let viewVC = MMProfileViewController()
+            self.present(viewVC, animated: true, completion: nil)
+        } else if indexPath.row == self.arrayItem.count - 1 {
+            let viewVC = MMChartViewController()
+            self.present(viewVC, animated: true, completion: nil)
+            
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

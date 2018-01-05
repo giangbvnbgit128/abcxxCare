@@ -8,9 +8,12 @@ target 'ManagerIcare' do
  pod 'Firebase/Core'
  pod 'Firebase/Database'
  pod 'Firebase/Storage'
- pod 'ObjectMapper'
+ #pod 'ObjectMapper'
  pod 'SDWebImage', '~> 4.0'
  pod 'AKSideMenu'
  pod 'FBSDKLoginKit'
-  
+ pod 'Charts'
+ pod 'RealmSwift'
+ #pod 'DateTimePicker'
+ 
 end
