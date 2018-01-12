@@ -14,10 +14,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="194" id="KGk-i7-Jjw" customClass="MMProfileTableViewCell" customModule="ManagerIcare" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="326" height="194"/>
+            <rect key="frame" x="0.0" y="0.0" width="326" height="210"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="326" height="193.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="326" height="209.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="u42-dV-Uee">
@@ -28,17 +28,24 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mr.Tun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YH-5M-XXh">
-                        <rect key="frame" x="137.5" y="148.5" width="51" height="35"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <rect key="frame" x="139.5" y="148.5" width="48.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQT-m9-bV9">
+                        <rect key="frame" x="146" y="176" width="35" height="17"/>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="0YH-5M-XXh" secondAttribute="bottom" constant="10" id="2T4-qQ-gzX"/>
+                    <constraint firstItem="qQT-m9-bV9" firstAttribute="top" secondItem="0YH-5M-XXh" secondAttribute="bottom" constant="8" id="2zx-kD-qbe"/>
                     <constraint firstItem="0YH-5M-XXh" firstAttribute="centerX" secondItem="u42-dV-Uee" secondAttribute="centerX" id="DGf-EJ-iRJ"/>
                     <constraint firstItem="u42-dV-Uee" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Wbi-Kx-2aA"/>
+                    <constraint firstItem="qQT-m9-bV9" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="b4r-jZ-ubF"/>
                     <constraint firstItem="u42-dV-Uee" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="slk-ls-V6n"/>
                     <constraint firstItem="0YH-5M-XXh" firstAttribute="top" secondItem="u42-dV-Uee" secondAttribute="bottom" constant="10" id="zbu-Ec-tVK"/>
                 </constraints>
@@ -48,6 +55,7 @@
             <connections>
                 <outlet property="imgAvarta" destination="u42-dV-Uee" id="fOw-LV-6HH"/>
                 <outlet property="lblName" destination="0YH-5M-XXh" id="ZYu-7X-Wl2"/>
+                <outlet property="titleYear" destination="qQT-m9-bV9" id="cN6-6h-uBg"/>
             </connections>
             <point key="canvasLocation" x="91" y="150"/>
         </tableViewCell>

@@ -20,7 +20,7 @@ import UIKit
 }
 
 @IBDesignable open class AKSideMenu: UIViewController, UIGestureRecognizerDelegate {
-
+    
     var visible: Bool = false
     var leftMenuVisible: Bool = false
     var rightMenuVisible: Bool = false
@@ -76,6 +76,8 @@ import UIKit
         super.init(coder: aDecoder)
         self.commonInit()
     }
+    
+
 
     required public init(contentViewController: UIViewController, leftMenuViewController: UIViewController?, rightMenuViewController: UIViewController?) {
         super.init(nibName:nil, bundle:nil)

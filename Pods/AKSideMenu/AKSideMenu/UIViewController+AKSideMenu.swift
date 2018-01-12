@@ -41,4 +41,7 @@ extension UIViewController {
     @IBAction public func presentRightMenuViewController(_ sender: AnyObject) {
         self.sideMenuViewController?.presentRightMenuViewController()
     }
+    public func showMessage(){
+        print("===== message")
+    }
 }

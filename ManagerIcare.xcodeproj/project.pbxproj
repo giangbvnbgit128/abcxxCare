@@ -13,7 +13,6 @@
 		530659B21FFE13E100FF06A9 /* MMChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659B01FFE13E100FF06A9 /* MMChartViewController.swift */; };
 		530659B31FFE13E100FF06A9 /* MMChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530659B11FFE13E100FF06A9 /* MMChartViewController.xib */; };
 		530659B51FFE7E2D00FF06A9 /* LelfMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659B41FFE7E2D00FF06A9 /* LelfMenuModel.swift */; };
-		530659B71FFE9D6800FF06A9 /* MMHeightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659B61FFE9D6800FF06A9 /* MMHeightModel.swift */; };
 		530659B91FFE9DD700FF06A9 /* BaseModelHealthy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530659B81FFE9DD700FF06A9 /* BaseModelHealthy.swift */; };
 		53288EAA1FEF4D9F0073D276 /* MMAddHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53288EA81FEF4D9F0073D276 /* MMAddHealthViewController.swift */; };
 		53288EAB1FEF4D9F0073D276 /* MMAddHealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53288EA91FEF4D9F0073D276 /* MMAddHealthViewController.xib */; };
@@ -30,8 +29,13 @@
 		533FDEE71FF889F500DF22A3 /* NationalVaccinationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533FDEE51FF889F500DF22A3 /* NationalVaccinationViewController.xib */; };
 		533FDEEB1FF88E3500DF22A3 /* MMVaccinationalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533FDEE91FF88E3500DF22A3 /* MMVaccinationalTableViewCell.swift */; };
 		533FDEEC1FF88E3500DF22A3 /* MMVaccinationalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533FDEEA1FF88E3500DF22A3 /* MMVaccinationalTableViewCell.xib */; };
+		536A0B01200523750039D820 /* FengShui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0AFF200523740039D820 /* FengShui.swift */; };
+		536A0B02200523750039D820 /* FengShuiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0B00200523740039D820 /* FengShuiModel.swift */; };
+		536A0B0D20092E350039D820 /* MMRaisingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0B0C20092E350039D820 /* MMRaisingViewController.swift */; };
 		536C21591FFB6CDE00131D2A /* MMItemProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C21571FFB6CDE00131D2A /* MMItemProfileTableViewCell.swift */; };
 		536C215A1FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536C21581FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib */; };
+		5375F68720035E2E0097EF50 /* MMYoutubePlayVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375F68520035E2E0097EF50 /* MMYoutubePlayVideosViewController.swift */; };
+		5375F68820035E2E0097EF50 /* MMYoutubePlayVideosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5375F68620035E2E0097EF50 /* MMYoutubePlayVideosViewController.xib */; };
 		539792CA1FF9471B006857BE /* MMVaccitionModelal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539792C91FF9471B006857BE /* MMVaccitionModelal.swift */; };
 		539792D51FF956C2006857BE /* MMFollowHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539792D31FF956C2006857BE /* MMFollowHealthViewController.swift */; };
 		539792D61FF956C2006857BE /* MMFollowHealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 539792D41FF956C2006857BE /* MMFollowHealthViewController.xib */; };
@@ -123,7 +127,6 @@
 		530659B01FFE13E100FF06A9 /* MMChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMChartViewController.swift; sourceTree = "<group>"; };
 		530659B11FFE13E100FF06A9 /* MMChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMChartViewController.xib; sourceTree = "<group>"; };
 		530659B41FFE7E2D00FF06A9 /* LelfMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LelfMenuModel.swift; sourceTree = "<group>"; };
-		530659B61FFE9D6800FF06A9 /* MMHeightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMHeightModel.swift; sourceTree = "<group>"; };
 		530659B81FFE9DD700FF06A9 /* BaseModelHealthy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelHealthy.swift; sourceTree = "<group>"; };
 		53288EA81FEF4D9F0073D276 /* MMAddHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMAddHealthViewController.swift; sourceTree = "<group>"; };
 		53288EA91FEF4D9F0073D276 /* MMAddHealthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMAddHealthViewController.xib; sourceTree = "<group>"; };
@@ -141,8 +144,13 @@
 		533FDEE51FF889F500DF22A3 /* NationalVaccinationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NationalVaccinationViewController.xib; sourceTree = "<group>"; };
 		533FDEE91FF88E3500DF22A3 /* MMVaccinationalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMVaccinationalTableViewCell.swift; sourceTree = "<group>"; };
 		533FDEEA1FF88E3500DF22A3 /* MMVaccinationalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMVaccinationalTableViewCell.xib; sourceTree = "<group>"; };
+		536A0AFF200523740039D820 /* FengShui.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengShui.swift; sourceTree = "<group>"; };
+		536A0B00200523740039D820 /* FengShuiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengShuiModel.swift; sourceTree = "<group>"; };
+		536A0B0C20092E350039D820 /* MMRaisingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMRaisingViewController.swift; sourceTree = "<group>"; };
 		536C21571FFB6CDE00131D2A /* MMItemProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMItemProfileTableViewCell.swift; sourceTree = "<group>"; };
 		536C21581FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMItemProfileTableViewCell.xib; sourceTree = "<group>"; };
+		5375F68520035E2E0097EF50 /* MMYoutubePlayVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMYoutubePlayVideosViewController.swift; sourceTree = "<group>"; };
+		5375F68620035E2E0097EF50 /* MMYoutubePlayVideosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMYoutubePlayVideosViewController.xib; sourceTree = "<group>"; };
 		539792C91FF9471B006857BE /* MMVaccitionModelal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMVaccitionModelal.swift; sourceTree = "<group>"; };
 		539792D31FF956C2006857BE /* MMFollowHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMFollowHealthViewController.swift; sourceTree = "<group>"; };
 		539792D41FF956C2006857BE /* MMFollowHealthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMFollowHealthViewController.xib; sourceTree = "<group>"; };
@@ -326,6 +334,24 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		536A0AFE200523740039D820 /* PHONGTHUY */ = {
+			isa = PBXGroup;
+			children = (
+				536A0AFF200523740039D820 /* FengShui.swift */,
+				536A0B00200523740039D820 /* FengShuiModel.swift */,
+			);
+			path = PHONGTHUY;
+			sourceTree = "<group>";
+		};
+		5375F68420035E0B0097EF50 /* YoutubePlayVideos */ = {
+			isa = PBXGroup;
+			children = (
+				5375F68520035E2E0097EF50 /* MMYoutubePlayVideosViewController.swift */,
+				5375F68620035E2E0097EF50 /* MMYoutubePlayVideosViewController.xib */,
+			);
+			path = YoutubePlayVideos;
+			sourceTree = "<group>";
+		};
 		539792CB1FF9567E006857BE /* LeftViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,6 +428,7 @@
 			children = (
 				530659A81FFDD60700FF06A9 /* ManagerIcare.entitlements */,
 				53288EB61FF0ABB90073D276 /* GoogleService-Info.plist */,
+				536A0AFE200523740039D820 /* PHONGTHUY */,
 				53E8875E1FEE048200262609 /* DataHelper */,
 				53E887481FEDF1E800262609 /* Base */,
 				53E8873A1FEDEA2E00262609 /* AppDelegate */,
@@ -450,7 +477,6 @@
 				53288EBC1FF3EE0F0073D276 /* MMHealthGroup.swift */,
 				539792C91FF9471B006857BE /* MMVaccitionModelal.swift */,
 				530659B41FFE7E2D00FF06A9 /* LelfMenuModel.swift */,
-				530659B61FFE9D6800FF06A9 /* MMHeightModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -458,6 +484,7 @@
 		53E8873D1FEDEA2F00262609 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5375F68420035E0B0097EF50 /* YoutubePlayVideos */,
 				530659AF1FFE13D100FF06A9 /* ChartViewController */,
 				530659A91FFDD64900FF06A9 /* LoginViewController */,
 				539792CB1FF9567E006857BE /* LeftViewController */,
@@ -470,6 +497,7 @@
 				53E887441FEDF15900262609 /* MMFashionViewController.swift */,
 				53E887461FEDF16800262609 /* MMNewsViewContronller.swift */,
 				53A8C5E31FFB30E30008EF5D /* MMSplashScreen.swift */,
+				536A0B0C20092E350039D820 /* MMRaisingViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -725,6 +753,7 @@
 				53288EB71FF0ABB90073D276 /* GoogleService-Info.plist in Resources */,
 				530659B31FFE13E100FF06A9 /* MMChartViewController.xib in Resources */,
 				53E887121FECA88A00262609 /* Main.storyboard in Resources */,
+				5375F68820035E2E0097EF50 /* MMYoutubePlayVideosViewController.xib in Resources */,
 				53288EB51FEFA13B0073D276 /* MMDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -760,6 +789,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -775,6 +805,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -849,6 +880,7 @@
 				53E8878A1FEE048200262609 /* NSDate.swift in Sources */,
 				53E887931FEE048200262609 /* Double.swift in Sources */,
 				53E8875A1FEDF48D00262609 /* MMHealthCollectionViewCell.swift in Sources */,
+				536A0B0D20092E350039D820 /* MMRaisingViewController.swift in Sources */,
 				539792D51FF956C2006857BE /* MMFollowHealthViewController.swift in Sources */,
 				53E8877E1FEE048200262609 /* NSUserDefaults.swift in Sources */,
 				53E887911FEE048200262609 /* UIWindow.swift in Sources */,
@@ -875,14 +907,16 @@
 				53E887971FEE048200262609 /* Optional.swift in Sources */,
 				53E887471FEDF16800262609 /* MMNewsViewContronller.swift in Sources */,
 				53E887431FEDF14700262609 /* MMNutritionViewController.swift in Sources */,
-				530659B71FFE9D6800FF06A9 /* MMHeightModel.swift in Sources */,
 				53E887871FEE048200262609 /* Int.swift in Sources */,
+				5375F68720035E2E0097EF50 /* MMYoutubePlayVideosViewController.swift in Sources */,
 				53E887921FEE048200262609 /* CGFloat.swift in Sources */,
 				53E887841FEE048200262609 /* NSObject.swift in Sources */,
 				536C21591FFB6CDE00131D2A /* MMItemProfileTableViewCell.swift in Sources */,
 				53288EBD1FF3EE100073D276 /* MMHealthGroup.swift in Sources */,
 				53E8878F1FEE048200262609 /* UIViewController.swift in Sources */,
+				536A0B02200523750039D820 /* FengShuiModel.swift in Sources */,
 				53E887531FEDF3C300262609 /* MMHealthTableViewCell.swift in Sources */,
+				536A0B01200523750039D820 /* FengShui.swift in Sources */,
 				53288EAA1FEF4D9F0073D276 /* MMAddHealthViewController.swift in Sources */,
 				53E887991FEE048200262609 /* Float.swift in Sources */,
 				53E887861FEE048200262609 /* UICollectionView.swift in Sources */,

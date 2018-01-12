@@ -16,13 +16,17 @@
             <connections>
                 <outlet property="imgAvarta" destination="gXM-Ra-FWn" id="zh0-CX-Kzc"/>
                 <outlet property="lblDate" destination="HTU-hq-9xE" id="70H-Pn-zkc"/>
+                <outlet property="lblDateOfBirt" destination="fde-Fe-602" id="zQd-KQ-Ale"/>
                 <outlet property="parentPickerView" destination="jpS-01-ihe" id="RZ9-p7-oPj"/>
                 <outlet property="pickerDateCom" destination="FjA-AE-58g" id="vuy-Ia-4QY"/>
+                <outlet property="pickerSelectWeek" destination="0rz-pj-24F" id="lkb-fv-Pgr"/>
                 <outlet property="pickerView" destination="799-a0-WQD" id="alR-2W-nZm"/>
                 <outlet property="tfHeight" destination="x7D-A9-bU6" id="Sxt-QZ-KNq"/>
                 <outlet property="tfname" destination="3sJ-mH-ZQU" id="WFA-pW-0bf"/>
                 <outlet property="tfwaight" destination="6fc-eq-cyB" id="w8S-bn-DhE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewParentC" destination="kX5-WE-POR" id="XPM-3C-qS4"/>
+                <outlet property="viewPickerWeek" destination="XA1-4P-ptM" id="4dQ-Eo-24o"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -125,7 +129,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20/10/2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTU-hq-9xE">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20/10/2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTU-hq-9xE">
                                             <rect key="frame" x="109" y="9" width="183" height="30"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -228,6 +232,21 @@
                                                 <!--2018-01-05 03:20:00 +0000-->
                                             </date>
                                         </datePicker>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XA1-4P-ptM" userLabel="PickerWeek">
+                                            <rect key="frame" x="0.0" y="67" width="375" height="183"/>
+                                            <subviews>
+                                                <pickerView tag="-7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0rz-pj-24F">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="183"/>
+                                                </pickerView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="0rz-pj-24F" secondAttribute="bottom" id="0Q1-ox-WO9"/>
+                                                <constraint firstItem="0rz-pj-24F" firstAttribute="leading" secondItem="XA1-4P-ptM" secondAttribute="leading" id="LyW-XO-KS3"/>
+                                                <constraint firstAttribute="trailing" secondItem="0rz-pj-24F" secondAttribute="trailing" id="M0i-2c-XtY"/>
+                                                <constraint firstItem="0rz-pj-24F" firstAttribute="top" secondItem="XA1-4P-ptM" secondAttribute="top" id="uQf-2V-9n1"/>
+                                            </constraints>
+                                        </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ixa-iy-qyY">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
                                             <subviews>
@@ -259,13 +278,18 @@
                                             </constraints>
                                         </view>
                                     </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstItem="Ixa-iy-qyY" firstAttribute="leading" secondItem="799-a0-WQD" secondAttribute="leading" id="9WP-VR-MEx"/>
+                                        <constraint firstItem="XA1-4P-ptM" firstAttribute="top" secondItem="FjA-AE-58g" secondAttribute="top" id="CsG-es-gNx"/>
+                                        <constraint firstItem="XA1-4P-ptM" firstAttribute="bottom" secondItem="FjA-AE-58g" secondAttribute="bottom" id="F4x-th-aVV"/>
+                                        <constraint firstItem="XA1-4P-ptM" firstAttribute="trailing" secondItem="FjA-AE-58g" secondAttribute="trailing" id="Ie0-Oq-w0d"/>
                                         <constraint firstItem="FjA-AE-58g" firstAttribute="top" secondItem="Ixa-iy-qyY" secondAttribute="bottom" constant="8" id="LOk-h7-ZiJ"/>
                                         <constraint firstAttribute="bottom" secondItem="FjA-AE-58g" secondAttribute="bottom" id="MlC-hc-EKQ"/>
                                         <constraint firstItem="FjA-AE-58g" firstAttribute="leading" secondItem="Ixa-iy-qyY" secondAttribute="leading" id="OIM-LM-eiN"/>
                                         <constraint firstAttribute="trailing" secondItem="Ixa-iy-qyY" secondAttribute="trailing" id="TLc-w2-XGu"/>
                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="VD5-Hp-27h"/>
+                                        <constraint firstItem="XA1-4P-ptM" firstAttribute="leading" secondItem="FjA-AE-58g" secondAttribute="leading" id="cWk-Nt-b6Y"/>
                                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="250" id="crA-BV-YWM"/>
                                         <constraint firstAttribute="height" constant="250" id="d6n-TF-blZ"/>
                                         <constraint firstItem="FjA-AE-58g" firstAttribute="trailing" secondItem="Ixa-iy-qyY" secondAttribute="trailing" id="lx1-Uo-btu"/>

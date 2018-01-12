@@ -14,6 +14,16 @@ class MMSplashScreen: MMBaseViewController {
         super.viewDidLoad()
         
     }
+
+    @IBAction func actionClickBauBI(_ sender: Any) {
+        let viewTabbar = storyboard?.instantiateViewController(withIdentifier: "tabbarkey")
+        let letftViewContrller = MMLeftMenuViewController.vc()
+        
+        
+        let akViewVC = AKSideMenu(contentViewController: viewTabbar!, leftMenuViewController: letftViewContrller, rightMenuViewController: nil)
+        appDelegate.window?.rootViewController = akViewVC
+        
+    }
     
     @IBAction func actionClick(_ sender: Any) {
         
