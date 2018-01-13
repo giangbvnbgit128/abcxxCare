@@ -32,6 +32,10 @@
 		536A0B01200523750039D820 /* FengShui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0AFF200523740039D820 /* FengShui.swift */; };
 		536A0B02200523750039D820 /* FengShuiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0B00200523740039D820 /* FengShuiModel.swift */; };
 		536A0B0D20092E350039D820 /* MMRaisingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0B0C20092E350039D820 /* MMRaisingViewController.swift */; };
+		536A0B0F20093BC40039D820 /* MMBaseModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0B0E20093BC40039D820 /* MMBaseModelItem.swift */; };
+		536A0B1120093C5A0039D820 /* MMNutritionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0B1020093C5A0039D820 /* MMNutritionGroup.swift */; };
+		536A0B152009B7190039D820 /* MMDetailItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536A0B132009B7190039D820 /* MMDetailItemViewController.swift */; };
+		536A0B162009B7190039D820 /* MMDetailItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536A0B142009B7190039D820 /* MMDetailItemViewController.xib */; };
 		536C21591FFB6CDE00131D2A /* MMItemProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C21571FFB6CDE00131D2A /* MMItemProfileTableViewCell.swift */; };
 		536C215A1FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536C21581FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib */; };
 		5375F68720035E2E0097EF50 /* MMYoutubePlayVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375F68520035E2E0097EF50 /* MMYoutubePlayVideosViewController.swift */; };
@@ -46,6 +50,8 @@
 		53CF683A1FFB670A0031B7EC /* MMProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CF68381FFB670A0031B7EC /* MMProfileViewController.xib */; };
 		53CF683E1FFB68D50031B7EC /* MMProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF683C1FFB68D50031B7EC /* MMProfileTableViewCell.swift */; };
 		53CF683F1FFB68D50031B7EC /* MMProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CF683D1FFB68D50031B7EC /* MMProfileTableViewCell.xib */; };
+		53DCDC63200A661D002D2AB0 /* MMWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DCDC61200A661D002D2AB0 /* MMWebViewController.swift */; };
+		53DCDC64200A661D002D2AB0 /* MMWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DCDC62200A661D002D2AB0 /* MMWebViewController.xib */; };
 		53E8870F1FECA88A00262609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E8870E1FECA88A00262609 /* ViewController.swift */; };
 		53E887121FECA88A00262609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E887101FECA88A00262609 /* Main.storyboard */; };
 		53E887141FECA88A00262609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E887131FECA88A00262609 /* Assets.xcassets */; };
@@ -147,6 +153,10 @@
 		536A0AFF200523740039D820 /* FengShui.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengShui.swift; sourceTree = "<group>"; };
 		536A0B00200523740039D820 /* FengShuiModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FengShuiModel.swift; sourceTree = "<group>"; };
 		536A0B0C20092E350039D820 /* MMRaisingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMRaisingViewController.swift; sourceTree = "<group>"; };
+		536A0B0E20093BC40039D820 /* MMBaseModelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMBaseModelItem.swift; sourceTree = "<group>"; };
+		536A0B1020093C5A0039D820 /* MMNutritionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMNutritionGroup.swift; sourceTree = "<group>"; };
+		536A0B132009B7190039D820 /* MMDetailItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMDetailItemViewController.swift; sourceTree = "<group>"; };
+		536A0B142009B7190039D820 /* MMDetailItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMDetailItemViewController.xib; sourceTree = "<group>"; };
 		536C21571FFB6CDE00131D2A /* MMItemProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMItemProfileTableViewCell.swift; sourceTree = "<group>"; };
 		536C21581FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMItemProfileTableViewCell.xib; sourceTree = "<group>"; };
 		5375F68520035E2E0097EF50 /* MMYoutubePlayVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMYoutubePlayVideosViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +172,8 @@
 		53CF68381FFB670A0031B7EC /* MMProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMProfileViewController.xib; sourceTree = "<group>"; };
 		53CF683C1FFB68D50031B7EC /* MMProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMProfileTableViewCell.swift; sourceTree = "<group>"; };
 		53CF683D1FFB68D50031B7EC /* MMProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMProfileTableViewCell.xib; sourceTree = "<group>"; };
+		53DCDC61200A661D002D2AB0 /* MMWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMWebViewController.swift; sourceTree = "<group>"; };
+		53DCDC62200A661D002D2AB0 /* MMWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMWebViewController.xib; sourceTree = "<group>"; };
 		53E887091FECA88A00262609 /* ManagerIcare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagerIcare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E8870E1FECA88A00262609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53E887111FECA88A00262609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -343,6 +355,15 @@
 			path = PHONGTHUY;
 			sourceTree = "<group>";
 		};
+		536A0B122009B7030039D820 /* MMDetailItemViewController */ = {
+			isa = PBXGroup;
+			children = (
+				536A0B132009B7190039D820 /* MMDetailItemViewController.swift */,
+				536A0B142009B7190039D820 /* MMDetailItemViewController.xib */,
+			);
+			path = MMDetailItemViewController;
+			sourceTree = "<group>";
+		};
 		5375F68420035E0B0097EF50 /* YoutubePlayVideos */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +420,15 @@
 				536C21581FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		53DCDC60200A660C002D2AB0 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53DCDC61200A661D002D2AB0 /* MMWebViewController.swift */,
+				53DCDC62200A661D002D2AB0 /* MMWebViewController.xib */,
+			);
+			path = WebViewController;
 			sourceTree = "<group>";
 		};
 		53E887001FECA88A00262609 = {
@@ -477,6 +507,7 @@
 				53288EBC1FF3EE0F0073D276 /* MMHealthGroup.swift */,
 				539792C91FF9471B006857BE /* MMVaccitionModelal.swift */,
 				530659B41FFE7E2D00FF06A9 /* LelfMenuModel.swift */,
+				536A0B1020093C5A0039D820 /* MMNutritionGroup.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -484,6 +515,8 @@
 		53E8873D1FEDEA2F00262609 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				53DCDC60200A660C002D2AB0 /* WebViewController */,
+				536A0B122009B7030039D820 /* MMDetailItemViewController */,
 				5375F68420035E0B0097EF50 /* YoutubePlayVideos */,
 				530659AF1FFE13D100FF06A9 /* ChartViewController */,
 				530659A91FFDD64900FF06A9 /* LoginViewController */,
@@ -516,6 +549,7 @@
 				53E8874B1FEDF2F100262609 /* BaseCell */,
 				53E887491FEDF1FC00262609 /* MMBaseViewController.swift */,
 				530659B81FFE9DD700FF06A9 /* BaseModelHealthy.swift */,
+				536A0B0E20093BC40039D820 /* MMBaseModelItem.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -739,6 +773,7 @@
 				53E887171FECA88A00262609 /* LaunchScreen.storyboard in Resources */,
 				536C215A1FFB6CDE00131D2A /* MMItemProfileTableViewCell.xib in Resources */,
 				539792D61FF956C2006857BE /* MMFollowHealthViewController.xib in Resources */,
+				53DCDC64200A661D002D2AB0 /* MMWebViewController.xib in Resources */,
 				533FDEE71FF889F500DF22A3 /* NationalVaccinationViewController.xib in Resources */,
 				53E8875B1FEDF48D00262609 /* MMHealthCollectionViewCell.xib in Resources */,
 				53E887141FECA88A00262609 /* Assets.xcassets in Resources */,
@@ -752,6 +787,7 @@
 				53288EB01FEF57B70073D276 /* headerCellTableViewCell.xib in Resources */,
 				53288EB71FF0ABB90073D276 /* GoogleService-Info.plist in Resources */,
 				530659B31FFE13E100FF06A9 /* MMChartViewController.xib in Resources */,
+				536A0B162009B7190039D820 /* MMDetailItemViewController.xib in Resources */,
 				53E887121FECA88A00262609 /* Main.storyboard in Resources */,
 				5375F68820035E2E0097EF50 /* MMYoutubePlayVideosViewController.xib in Resources */,
 				53288EB51FEFA13B0073D276 /* MMDetailViewController.xib in Resources */,
@@ -862,9 +898,11 @@
 				53E887411FEDF11F00262609 /* MMHeathyViewController.swift in Sources */,
 				530659B51FFE7E2D00FF06A9 /* LelfMenuModel.swift in Sources */,
 				530659B21FFE13E100FF06A9 /* MMChartViewController.swift in Sources */,
+				536A0B0F20093BC40039D820 /* MMBaseModelItem.swift in Sources */,
 				533FDEE61FF889F500DF22A3 /* NationalVaccinationViewController.swift in Sources */,
 				53E8873F1FEDEA2F00262609 /* AppDelegate.swift in Sources */,
 				53E887801FEE048200262609 /* GCD.swift in Sources */,
+				53DCDC63200A661D002D2AB0 /* MMWebViewController.swift in Sources */,
 				53E887811FEE048200262609 /* Array.swift in Sources */,
 				53E8878B1FEE048200262609 /* Dictionary.swift in Sources */,
 				53E887831FEE048200262609 /* NSNotificationCenter.swift in Sources */,
@@ -877,6 +915,7 @@
 				53E8870F1FECA88A00262609 /* ViewController.swift in Sources */,
 				53E887951FEE048200262609 /* UILabel.swift in Sources */,
 				53E887851FEE048200262609 /* UITabBarController.swift in Sources */,
+				536A0B1120093C5A0039D820 /* MMNutritionGroup.swift in Sources */,
 				53E8878A1FEE048200262609 /* NSDate.swift in Sources */,
 				53E887931FEE048200262609 /* Double.swift in Sources */,
 				53E8875A1FEDF48D00262609 /* MMHealthCollectionViewCell.swift in Sources */,
@@ -919,6 +958,7 @@
 				536A0B01200523750039D820 /* FengShui.swift in Sources */,
 				53288EAA1FEF4D9F0073D276 /* MMAddHealthViewController.swift in Sources */,
 				53E887991FEE048200262609 /* Float.swift in Sources */,
+				536A0B152009B7190039D820 /* MMDetailItemViewController.swift in Sources */,
 				53E887861FEE048200262609 /* UICollectionView.swift in Sources */,
 				53A8C5E11FFB2C120008EF5D /* MMLeftMenuViewController.swift in Sources */,
 				53E8875D1FEE019800262609 /* DataConfig.swift in Sources */,

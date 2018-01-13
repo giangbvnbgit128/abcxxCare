@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ManagerIcare/ViewController/LeftViewController/ProfileViewController/MMProfileViewController.swift"
-            timestampString = "537472837.316445"
+            timestampString = "537480528.233981"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "148"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ManagerIcare/ViewController/LeftViewController/ProfileViewController/MMProfileViewController.swift"
-            timestampString = "537472837.316662"
+            timestampString = "537480528.2340471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "149"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ManagerIcare/ViewController/LeftViewController/ProfileViewController/MMProfileViewController.swift"
-            timestampString = "537472837.316725"
+            timestampString = "537480528.234094"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "152"
@@ -58,13 +58,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ManagerIcare/ViewController/LeftViewController/ProfileViewController/MMProfileViewController.swift"
-            timestampString = "537472837.316831"
+            timestampString = "537480528.234138"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "176"
             endingLineNumber = "176"
             landmarkName = "actionSave(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ManagerIcare/ViewController/DetailViewController/MMDetailViewController.swift"
+            timestampString = "537553007.003804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -22,6 +22,7 @@ class MMDetailViewController: MMBaseViewController {
     
     var noteName:String = ""
     var idForItem:Int = 0
+    var keyDataBase:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,7 +56,12 @@ class MMDetailViewController: MMBaseViewController {
     }
     @IBAction func SaveAction(_ sender: Any) {
 //        self.ref.child("dbhealth").child(self.noteName).setValue()
-       
+//        var str:String = self.txtContent.text
+//        let jsonEncoder = JSONEncoder()
+//        let jsonData = try! jsonEncoder.encode(str)
+//        let jsonString = String(data: jsonData, encoding: .utf8)
+//        print(jsonString)
+        
         let imageLoader = ImageUploadManager()
         let imageAvarta:UIImage = self.imgAvarta.image!
         imageLoader.uploadImage(imageAvarta, progressBlock: { (persented) in
@@ -63,11 +69,14 @@ class MMDetailViewController: MMBaseViewController {
         }) { (url, error) in
             let mm = MMHealthModel()
             mm.id = self.idForItem
-            mm.content = self.txtContent.text
+            mm.content = (self.txtContent.text ?? "")
+            
+            
             mm.title = self.tfTitle.text ?? ""
             mm.urlImage = "\(url!)"
             mm.urlWeb =  ""
-            mm.urlVideo = self.tfLinkVideo.text ?? ""
+            mm.urlVideo = ((self.tfLinkVideo.text ?? "") as String)
+            
             
             
             let post = ["id": mm.id,
@@ -76,7 +85,7 @@ class MMDetailViewController: MMBaseViewController {
                         "urlimage": mm.urlImage,
                         "urlweb": mm.urlWeb,
                         "urlvideo": mm.urlVideo] as [String : Any]
-            self.ref.child("dbhealth").child(self.noteName).child(mm.title).setValue(post)
+            self.ref.child(self.keyDataBase).child(self.noteName).child(mm.title).setValue(post)
         }
 
     }

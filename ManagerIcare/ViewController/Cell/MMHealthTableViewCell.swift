@@ -12,7 +12,7 @@ import SDWebImage
 class MMHealthTableViewCell: UITableViewCell {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    var arrayItem:[MMHealthModel] = []
+    var arrayItem:[MMBaseModelItem] = []
     var nav:UINavigationController?
     
     
@@ -55,7 +55,8 @@ extension MMHealthTableViewCell: UICollectionViewDataSource ,UICollectionViewDel
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let viewVC = NationalVaccinationViewController()
+//        let viewVC = NationalVaccinationViewController()
+        let viewVC = MMWebViewController()
         
         self.nav?.pushViewController(viewVC, animated: true)
     }

@@ -12,7 +12,6 @@ import UIKit
 class MMHeathyViewController: MMBaseViewController {
     
     @IBOutlet weak var tableview: UITableView!
-    var arrayVacXin:[MMHealthModel] = []
     var arrayKey:[String] = []
     var arrayId:[Int] = []
     var arrayGroup:[MMHealthGroup] = []
@@ -53,6 +52,7 @@ class MMHeathyViewController: MMBaseViewController {
         let viewVC = MMAddHealthViewController()
         viewVC.edgesForExtendedLayout = []
         viewVC.arrayNote = self.arrayKey
+        viewVC.keyDataBase = "dbhealth"
         viewVC.idForItem = self.arrayId.max() ?? 0
         self.navigationController?.pushViewController(viewVC, animated: true)
     }
@@ -62,14 +62,6 @@ class MMHeathyViewController: MMBaseViewController {
         let headerView = UIView(frame: CGRect(x: 0, y: 0, width: self.tableview.frame.width, height: self.tableview.frame.height/5))
         headerView.backgroundColor = .red
         self.tableview.tableHeaderView = headerView
-        
-        if #available(iOS 10, *) {
-            self.tableview.contentInset = .zero
-        } else if #available(iOS 9, *) {
-            self.tableview.contentInset = UIEdgeInsetsMake(-64, 0, 0, 0)
-        } else {
-            self.tableview.contentInset = .zero
-        }
         
     }
     

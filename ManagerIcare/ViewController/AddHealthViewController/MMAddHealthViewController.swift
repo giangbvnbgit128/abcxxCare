@@ -17,6 +17,7 @@ class MMAddHealthViewController: MMBaseViewController {
     var idForItem:Int = 0
     
     var arrayNote:[String] = []
+    var keyDataBase:String = ""
     
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
@@ -42,7 +43,7 @@ class MMAddHealthViewController: MMBaseViewController {
     }
     @IBAction func AddNote(_ sender: Any) {
         if let noteName = uitxteditText.text {
-            ref.child("dbhealth").setValue(noteName)
+            ref.child(self.keyDataBase).setValue(noteName)
         }
         
     }
@@ -55,6 +56,7 @@ class MMAddHealthViewController: MMBaseViewController {
             let noteName = tfName.text
             let viewVC = MMDetailViewController()
             viewVC.noteName = noteName ?? "Not null"
+            viewVC.keyDataBase = self.keyDataBase
             self.viewAddNote.isHidden = true
             viewVC.idForItem = self.idForItem
             self.navigationController?.pushViewController(viewVC, animated: true)
