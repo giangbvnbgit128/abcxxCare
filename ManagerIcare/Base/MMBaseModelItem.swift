@@ -7,16 +7,18 @@
 //
 
 import Foundation
+import RealmSwift
+import Realm
 
-class MMBaseModelItem {
-    var id:Int = 0
-    var title:String = ""
-    var content:String = ""
-    var urlImage:String = ""
-    var urlWeb:String = ""
-    var urlVideo:String = ""
+class MMBaseModelItem: NSObject {
+    @objc dynamic var id:Int = 0
+    @objc dynamic var title:String = ""
+    @objc dynamic var content:String = ""
+    @objc dynamic var urlImage:String = ""
+    @objc dynamic var urlWeb:String = ""
+    @objc dynamic var urlVideo:String = ""
     
-    init() {
+    override init() {
         
     }
     

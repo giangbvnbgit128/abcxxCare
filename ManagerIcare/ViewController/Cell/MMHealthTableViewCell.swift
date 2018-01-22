@@ -38,7 +38,7 @@ extension MMHealthTableViewCell: UICollectionViewDataSource ,UICollectionViewDel
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CellForCollection", for: indexPath) as! MMHealthCollectionViewCell
         let item = self.arrayItem[indexPath.row]
-        cell.configCell(urlImage: item.urlImage, title: item.title, content: item.content)
+        cell.configCell(data: item as! MMHealthModel)
         
         return cell
     }
@@ -55,10 +55,18 @@ extension MMHealthTableViewCell: UICollectionViewDataSource ,UICollectionViewDel
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let viewVC = NationalVaccinationViewController()
-        let viewVC = MMWebViewController()
+        let modelItem:MMBaseModelItem = self.arrayItem[indexPath.row]
+        if modelItem.urlWeb != "" {
+            let viewVC = MMWebViewController()
+            viewVC.strVideo = modelItem.urlWeb
+             self.nav?.pushViewController(viewVC, animated: true)
+        } else {
+            let viewVC = MMYoutubePlayVideosViewController()
+            viewVC.idVideo = modelItem.urlVideo
+            self.nav?.pushViewController(viewVC, animated: true)
+        }
         
-        self.nav?.pushViewController(viewVC, animated: true)
+       
     }
     
 }

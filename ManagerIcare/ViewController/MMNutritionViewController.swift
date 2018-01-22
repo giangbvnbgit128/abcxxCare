@@ -51,6 +51,7 @@ class MMNutritionViewController: MMBaseViewController {
         let viewVC = MMAddHealthViewController()
         viewVC.edgesForExtendedLayout = []
         viewVC.arrayNote = self.arrayKey
+        viewVC.keyDataBase = DataConfig.KEYNUTRITION
         viewVC.idForItem = self.arrayId.max() ?? 0
         self.navigationController?.pushViewController(viewVC, animated: true)
     }
@@ -109,7 +110,7 @@ extension MMNutritionViewController {
     
     func getData() {
         
-        self.ref.child("dbNutrition").observe(.value) { (data) in
+        self.ref.child(DataConfig.KEYNUTRITION).observe(.value) { (data) in
             // cho nay lay ra cac note chinh
             if let dicData:Dictionary<String,AnyObject> = data.value as? Dictionary<String,AnyObject> {
                 self.arrayKey.removeAll()
@@ -120,7 +121,7 @@ extension MMNutritionViewController {
                     let itemGroup = MMHealthGroup()
                     itemGroup.title = i.key
                     print("====Title \(i.key) =key")
-                    self.ref.child("dbNutrition").child(i.key).observe(.value, with: { (dataComplet) in
+                    self.ref.child(DataConfig.KEYNUTRITION).child(i.key).observe(.value, with: { (dataComplet) in
                         
                         
                         if let dicDataItem:Dictionary<String,AnyObject> = dataComplet.value as? Dictionary<String,AnyObject> {

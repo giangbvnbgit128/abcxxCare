@@ -48,12 +48,12 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>naviva.com.vn</key>
+			<key>afamily.vn</key>
 			<dict>
 				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 			</dict>
-			<key>nld.vcmedia.vn</key>
+			<key>hocnuoicon.com</key>
 			<dict>
 				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
 				<true/>

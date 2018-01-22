@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,11 +27,20 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="W2Q-ui-lsH">
                                 <rect key="frame" x="1" y="1" width="88" height="78"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconplay" translatesAutoresizingMaskIntoConstraints="NO" id="o4a-HX-giP">
+                                <rect key="frame" x="30.5" y="25.5" width="29" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="o4a-HX-giP" secondAttribute="height" multiplier="1:1" id="Jch-t5-Cf0"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="o4a-HX-giP" firstAttribute="centerX" secondItem="W2Q-ui-lsH" secondAttribute="centerX" id="8Xd-H1-zMa"/>
                             <constraint firstItem="W2Q-ui-lsH" firstAttribute="top" secondItem="RJK-JN-KBa" secondAttribute="top" constant="1" id="JGu-hA-Ler"/>
                             <constraint firstAttribute="trailing" secondItem="W2Q-ui-lsH" secondAttribute="trailing" constant="1" id="JKr-Mc-vVS"/>
+                            <constraint firstItem="o4a-HX-giP" firstAttribute="centerY" secondItem="W2Q-ui-lsH" secondAttribute="centerY" id="Zcy-Qa-UnH"/>
+                            <constraint firstItem="o4a-HX-giP" firstAttribute="width" secondItem="W2Q-ui-lsH" secondAttribute="width" multiplier="1/3" id="gMf-Dz-GHO"/>
                             <constraint firstAttribute="bottom" secondItem="W2Q-ui-lsH" secondAttribute="bottom" constant="1" id="nHz-FZ-Dbt"/>
                             <constraint firstItem="W2Q-ui-lsH" firstAttribute="leading" secondItem="RJK-JN-KBa" secondAttribute="leading" constant="1" id="siN-yw-BVs"/>
                         </constraints>
@@ -78,6 +88,7 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <connections>
                 <outlet property="imageAvarta" destination="W2Q-ui-lsH" id="72E-7Y-nUu"/>
+                <outlet property="imgIconPlay" destination="o4a-HX-giP" id="Sa6-M2-id0"/>
                 <outlet property="lblContent" destination="LZl-6l-dFQ" id="e1y-X1-4DZ"/>
                 <outlet property="lbltitle" destination="Med-be-4J7" id="ibO-wl-M0L"/>
                 <outlet property="viewAvarta" destination="RJK-JN-KBa" id="Ogu-r2-fQP"/>
@@ -85,6 +96,7 @@
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="iconplay" width="16" height="16"/>
         <image name="pikachu" width="250" height="194"/>
     </resources>
 </document>

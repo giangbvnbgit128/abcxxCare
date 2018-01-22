@@ -12,11 +12,13 @@ import SDWebImage
 
 class MMDetailViewController: MMBaseViewController {
 
+    @IBOutlet weak var tflinkImage: UITextField!
     @IBOutlet weak var imgAvarta: UIImageView!
     @IBOutlet weak var viewImage: UIView!
     @IBOutlet weak var tfTitle: UITextField!
     @IBOutlet weak var txtContent: UITextView!
     @IBOutlet weak var tfLinkVideo: UITextField!
+    @IBOutlet weak var tflinkWeb: UITextField!
     
     let picker = UIImagePickerController()
     
@@ -27,12 +29,10 @@ class MMDetailViewController: MMBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         imgAvarta.layer.cornerRadius = 15
-        imgAvarta.border(color: .black, radius: 15, width: 1)
+        imgAvarta.border(color: .black, radius: 15, width: 0.2)
         picker.delegate = self
+        self.txtContent.border(color: .black, radius: 15, width: 0.2)
         
-//        let urlImage = URL(string: "https://firebasestorage.googleapis.com/v0/b/managericare-7b947.appspot.com/o/carImages%2F1514516925.4317.jpg?alt=media&token=fe54ccb3-1e6c-49c0-8db9-34308d070472")
-        
-//        imgAvarta.sd_setImage(with: urlImage, completed: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -55,30 +55,16 @@ class MMDetailViewController: MMBaseViewController {
         present(picker, animated: true, completion: nil)
     }
     @IBAction func SaveAction(_ sender: Any) {
-//        self.ref.child("dbhealth").child(self.noteName).setValue()
-//        var str:String = self.txtContent.text
-//        let jsonEncoder = JSONEncoder()
-//        let jsonData = try! jsonEncoder.encode(str)
-//        let jsonString = String(data: jsonData, encoding: .utf8)
-//        print(jsonString)
-        
-        let imageLoader = ImageUploadManager()
-        let imageAvarta:UIImage = self.imgAvarta.image!
-        imageLoader.uploadImage(imageAvarta, progressBlock: { (persented) in
-            print("persent == \(persented)")
-        }) { (url, error) in
             let mm = MMHealthModel()
             mm.id = self.idForItem
             mm.content = (self.txtContent.text ?? "")
+            mm.title = (self.tfTitle.text ?? "")
+            if self.tflinkImage.text != nil {
+                mm.urlImage = (self.tflinkImage.text ?? "")
+            }
             
-            
-            mm.title = self.tfTitle.text ?? ""
-            mm.urlImage = "\(url!)"
-            mm.urlWeb =  ""
+            mm.urlWeb =  (self.tflinkWeb.text ?? "")
             mm.urlVideo = ((self.tfLinkVideo.text ?? "") as String)
-            
-            
-            
             let post = ["id": mm.id,
                         "content": mm.content,
                         "title": mm.title,
@@ -86,8 +72,7 @@ class MMDetailViewController: MMBaseViewController {
                         "urlweb": mm.urlWeb,
                         "urlvideo": mm.urlVideo] as [String : Any]
             self.ref.child(self.keyDataBase).child(self.noteName).child(mm.title).setValue(post)
-        }
-
+            self.navigationController?.popToRootViewController(animated: true)
     }
 }
 

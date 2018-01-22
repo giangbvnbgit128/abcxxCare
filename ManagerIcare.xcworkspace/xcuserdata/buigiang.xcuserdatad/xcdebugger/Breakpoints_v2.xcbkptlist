@@ -73,14 +73,30 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ManagerIcare/ViewController/DetailViewController/MMDetailViewController.swift"
-            timestampString = "537553007.003804"
+            filePath = "ManagerIcare/ViewController/AddHealthViewController/MMAddHealthViewController.swift"
+            timestampString = "538255081.964311"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "OkAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ManagerIcare/ViewController/DetailViewController/MMDetailViewController.swift"
+            timestampString = "538255081.964636"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "SaveAction(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

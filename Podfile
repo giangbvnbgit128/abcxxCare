@@ -13,7 +13,7 @@ target 'ManagerIcare' do
  pod 'FBSDKLoginKit'
  pod 'Charts'
  pod 'RealmSwift'
- #pod 'Keyboard'
  pod 'IQKeyboardManagerSwift'
+ pod 'SwiftSoup'
  
 end

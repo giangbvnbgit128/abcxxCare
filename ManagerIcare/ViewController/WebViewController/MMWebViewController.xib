@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MMWebViewController" customModule="ManagerIcare" customModuleProvider="target">
             <connections>
+                <outlet property="indicatorLoading" destination="2vv-bd-MDp" id="aYR-zB-rad"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="webView" destination="AxS-me-X13" id="94k-UH-Ely"/>
             </connections>
@@ -25,9 +26,15 @@
                     <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                     <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </webView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="2vv-bd-MDp">
+                    <rect key="frame" x="169.5" y="325.5" width="37" height="37"/>
+                    <color key="color" red="0.64705882349999999" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="2vv-bd-MDp" firstAttribute="centerY" secondItem="AxS-me-X13" secondAttribute="centerY" id="8BW-XX-xgh"/>
+                <constraint firstItem="2vv-bd-MDp" firstAttribute="centerX" secondItem="AxS-me-X13" secondAttribute="centerX" id="B1b-1E-yFl"/>
                 <constraint firstItem="AxS-me-X13" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" id="HVw-HO-tCC"/>
                 <constraint firstItem="AxS-me-X13" firstAttribute="width" secondItem="fnl-2z-Ty3" secondAttribute="width" id="HdT-Ge-goc"/>
                 <constraint firstItem="AxS-me-X13" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="XTO-u2-DbV"/>

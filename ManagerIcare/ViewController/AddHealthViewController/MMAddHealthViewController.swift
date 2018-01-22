@@ -88,6 +88,7 @@ extension MMAddHealthViewController: UITableViewDelegate, UITableViewDataSource 
         let viewVC = MMDetailViewController()
         viewVC.noteName = self.arrayNote[indexPath.row]
         viewVC.idForItem = self.idForItem
+        viewVC.keyDataBase = self.keyDataBase
         self.navigationController?.pushViewController(viewVC, animated: true)
     }
  

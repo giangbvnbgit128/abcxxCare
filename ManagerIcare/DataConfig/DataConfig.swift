@@ -16,5 +16,6 @@ class DataConfig {
     static let udBirtDay:String = "keybirtday"
     static let udHeight:String = "KeyHeight"
     static let udWeight:String = "KeyWeight"
+    static let KEYNUTRITION:String = "dbNutrition"
     
 }

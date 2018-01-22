@@ -46,6 +46,7 @@
 		53A8C5E11FFB2C120008EF5D /* MMLeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A8C5DF1FFB2C120008EF5D /* MMLeftMenuViewController.swift */; };
 		53A8C5E21FFB2C120008EF5D /* MMLeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A8C5E01FFB2C120008EF5D /* MMLeftMenuViewController.xib */; };
 		53A8C5E41FFB30E30008EF5D /* MMSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A8C5E31FFB30E30008EF5D /* MMSplashScreen.swift */; };
+		53C1274D201199BF006330E4 /* cachItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1274C201199BF006330E4 /* cachItem.swift */; };
 		53CF68391FFB670A0031B7EC /* MMProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF68371FFB670A0031B7EC /* MMProfileViewController.swift */; };
 		53CF683A1FFB670A0031B7EC /* MMProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53CF68381FFB670A0031B7EC /* MMProfileViewController.xib */; };
 		53CF683E1FFB68D50031B7EC /* MMProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CF683C1FFB68D50031B7EC /* MMProfileTableViewCell.swift */; };
@@ -168,6 +169,7 @@
 		53A8C5E01FFB2C120008EF5D /* MMLeftMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMLeftMenuViewController.xib; sourceTree = "<group>"; };
 		53A8C5E31FFB30E30008EF5D /* MMSplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMSplashScreen.swift; sourceTree = "<group>"; };
 		53BB8F931FFEA53200252067 /* DateTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DateTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C1274C201199BF006330E4 /* cachItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cachItem.swift; sourceTree = "<group>"; };
 		53CF68371FFB670A0031B7EC /* MMProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMProfileViewController.swift; sourceTree = "<group>"; };
 		53CF68381FFB670A0031B7EC /* MMProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MMProfileViewController.xib; sourceTree = "<group>"; };
 		53CF683C1FFB68D50031B7EC /* MMProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMProfileTableViewCell.swift; sourceTree = "<group>"; };
@@ -508,6 +510,7 @@
 				539792C91FF9471B006857BE /* MMVaccitionModelal.swift */,
 				530659B41FFE7E2D00FF06A9 /* LelfMenuModel.swift */,
 				536A0B1020093C5A0039D820 /* MMNutritionGroup.swift */,
+				53C1274C201199BF006330E4 /* cachItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -829,6 +832,7 @@
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -845,6 +849,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -940,6 +945,7 @@
 				53288EB41FEFA13B0073D276 /* MMDetailViewController.swift in Sources */,
 				53CF683E1FFB68D50031B7EC /* MMProfileTableViewCell.swift in Sources */,
 				53E8877F1FEE048200262609 /* UIView.swift in Sources */,
+				53C1274D201199BF006330E4 /* cachItem.swift in Sources */,
 				53E8878E1FEE048200262609 /* UIImage.swift in Sources */,
 				53E887A21FEEC42C00262609 /* MMHeaderViewForHealth.swift in Sources */,
 				53E887821FEE048200262609 /* UIColor.swift in Sources */,
@@ -1130,11 +1136,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ManagerIcare/ManagerIcare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XMGAK3H63N;
+				DEVELOPMENT_TEAM = G4TZB2ECG4;
 				INFOPLIST_FILE = ManagerIcare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.giangvanbuiapp.mod2017;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giangbuivan.icare2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1148,11 +1154,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ManagerIcare/ManagerIcare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XMGAK3H63N;
+				DEVELOPMENT_TEAM = G4TZB2ECG4;
 				INFOPLIST_FILE = ManagerIcare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.giangvanbuiapp.mod2017;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giangbuivan.icare2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -10,7 +10,7 @@ import UIKit
 
 class MMYoutubePlayVideosViewController: UIViewController {
 
-    let idVideo:String = "doG2JkQ-yRs"
+    var idVideo:String = ""
     
     @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
